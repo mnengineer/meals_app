@@ -1,4 +1,4 @@
-# MEALS APP
+# Meals App
 
 Page navigation with tabs, side drawers, and stack-based navigation
 
