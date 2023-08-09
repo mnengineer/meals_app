@@ -41,13 +41,14 @@ class _FiltersScreenState extends State<FiltersScreen> {
       //   }
       // }),
       body: WillPopScope(
-        onWillPop: () {
+        onWillPop: () async {
           Navigator.of(context).pop({
             Filter.glutenFree: _glutenFreeFilterSet,
             Filter.lactoseFree: _lactoseFreeFilterSet,
             Filter.vegetarian: _vegetarianFreeFilterSet,
             Filter.vegan: _veganFreeFilterSet,
           });
+          return false;
         },
         child: Column(
           children: [
