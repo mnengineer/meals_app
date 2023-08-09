@@ -1,6 +1,6 @@
 # meals_app
 
-A new Flutter project.
+<img src="Meals.gif" width="270" />
 
 ## Getting Started
 
